@@ -1,2 +1,2 @@
-# js-mue
+# js-map
 code map for javascript 
