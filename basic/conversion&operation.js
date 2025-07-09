@@ -75,7 +75,7 @@ let num13 = 1+"2"+3
 let num14 = 2+3/5*4%10        //! DONT WRITE WITHOUT BRACKETS
 let num15 = (((2+3)/5)*4)%10 //*MUST WAY TO WRITE
 
-//console.table([num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12,num13,num14,num15]);
+console.table([num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12,num13,num14,num15]);
 
  //?---------------------------------RESULT------------------------------------//
  /*
