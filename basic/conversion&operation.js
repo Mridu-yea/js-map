@@ -1,11 +1,11 @@
 /* datatype to  Number conversion */
 let age = "33"
-//console.log(typeof age);
-//console.log(age);
+console.log(typeof age);
+console.log(age);
 
 let num = Number(age)
-//console.log(typeof num);
-//console.log(num);
+console.log(typeof num);
+console.log(num);
 
 /*-----------------------------Results----------------------------------- */
 //---Before conversion----//---After converson-------//
@@ -20,11 +20,11 @@ let num = Number(age)
 
 /* datatype to  Boolean conversion */
 let isLoggedIn = 0
-//console.log(typeof isLoggedIn);
+console.log(typeof isLoggedIn);
 
 let BisLoggedIn = Boolean(isLoggedIn)
-//console.log(BisLoggedIn);
-//console.log(typeof BisLoggedIn);
+console.log(BisLoggedIn);
+console.log(typeof BisLoggedIn);
 
 /*-----------------------------Results----------------------------------- */
 //---Before conversion----//---After converson-------//
