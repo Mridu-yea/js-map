@@ -37,3 +37,8 @@ let obj = {
 let objt = obj //call by reference
 objt.size = 45 //objt holds path of obj |changing objt changes value of obj shown below
 console.log(obj.size); //45
+
+//*----------------------------------MEMORY TYPE-------------------------------------------------------//
+// There are 2 types of memories in which these datatypes are stored :
+// 1) Stack : stores primitive datatype (call by value | example shown in code line: 14)
+// 2) Heap : stores non primitive datatype (call by reference | example shown in code line :33)
