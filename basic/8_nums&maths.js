@@ -15,3 +15,11 @@ console.log(Math.max(1,23,90)) //=> 90 | Gives max value / works with array too
 console.log(Math.min(1,23,90)) //=> 1  | Gives min value / works with array too 
 
 
+let min = 1
+let max = 6
+let dice = Math.floor((Math.random() * (max - min + 1)) + min)
+console.log(dice) // Gives random number from 1-6
+//Above , Math.random is used for giving random number 
+//here we did max-min = 5 in our case
+//it gives output between 0 and 1 thus , we added 1 
+//we also want 1 to be min value so we added 1 
