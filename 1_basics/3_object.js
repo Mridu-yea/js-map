@@ -1,4 +1,5 @@
 // Objects =>
+    
 const mysym = Symbol("key1")
     const User = {
         name : "peak",
