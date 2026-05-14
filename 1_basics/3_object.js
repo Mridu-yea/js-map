@@ -18,6 +18,42 @@ const mysym = Symbol("key1")
     console.log(User.isLoggedin);
     console.table([User]);
     console.log(User.greet());
+
+// Objects as singleton : 
+
+const appuser = new Object();
+
+appuser.name = "peak"
+appuser.id = 2121,
+appuser.fullname = {
+    username : {
+        firstname : "peak",
+        lastname : ""
+    }
+}
+
+
+console.log(appuser)
+console.log(appuser.fullname.username.lastname);
+console.log(Object.values(appuser));
+
+const array = [
+    user1 = {
+        name : "peak"
+    },
+        user2 = {
+        name : "mimi"
+    },
+        user3 = {
+        name : "kallu"
+    }
+]
+console.log(array[1].name);
+
+
+
+
+
     
     
     
