@@ -50,6 +50,21 @@ const array = [
 ]
 console.log(array[1].name);
 
+// destructing 
+
+const user = {
+    id : 2121,
+    name : "peak",
+    code : 234
+}
+const {id,name,code} = user;
+const {name : n} = user;
+console.log(n);
+
+
+console.table([id,name,code]);
+
+
 
 
 
